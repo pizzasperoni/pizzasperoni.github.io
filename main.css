@@ -1,0 +1,65 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+/* section {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; 
+} */
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+}
+nav a {
+  padding-left:10px;
+}
+
+
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  height: 400px;
+  background: #2D3E50; /* For browsers that do not support gradients */
+  background: linear-gradient(to right,#2D3E50 , #6A2E37); /* Standard syntax (must be last) */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #2D3E50;
+  height: 300px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
