@@ -2,6 +2,17 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
+i {
+  font-size: 60px;
+}
+.icons {
+  font-size: 40px;
+  display: flex;
+}
+.icons i {
+  padding: 5px;
+}
+
 /* section {
   width: 50%;
   margin-left: auto;
@@ -58,8 +69,16 @@ nav a {
 }
 
 #contact-me:hover {
-  background-color: #2D3E50;
+  background-color: #b14c5a;
   color: white;
+}
+nav a:hover {
+  background-color: #b14c5a;
+  color: white;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px;
 }
 
 .home {
