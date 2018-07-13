@@ -2,15 +2,13 @@ body {
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
-i {
-  font-size: 60px;
-}
 .icons {
-  font-size: 40px;
+  font-size: 80px;
   display: flex;
 }
 .icons i {
-  padding: 5px;
+  padding: 15px;
+
 }
 
 /* section {
