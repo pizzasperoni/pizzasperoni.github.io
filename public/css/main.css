@@ -7,9 +7,6 @@ body {
   padding-bottom: 100px;
   display: flex;
 } 
-.container i {
-  padding: 0;
-}
 nav {
   display: flex;
   flex-direction: row-reverse;
